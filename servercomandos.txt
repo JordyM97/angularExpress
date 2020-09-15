@@ -1,0 +1,14 @@
+en la carpeta principal 
+	npm install 
+	npm i express https jwt-simple moment mongoose sqlite3 sequelize nodemon mysql2 body-parser 	cors bcrypt
+
+para correr npm start
+
+luego para el front
+ cd FrontEnd/losefat
+ aqui npm install solo por si acaso jaaj
+ run audit fix
+ run audit fix --force por si el de arriba sale error o algo
+
+
+para correr ng serve --open

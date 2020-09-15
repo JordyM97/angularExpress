@@ -1,0 +1,28 @@
+ 
+ 
+ {
+    "cedula": "0987652321001",
+    "nombre": "cristhian",
+    "apellido": "Portilla",
+    "email": "crportilla@gmail.com",
+    "username": "crportilla",
+    "password": "1234567",
+    "tipo": "Cliente",
+ }
+ 
+ 
+ 
+ 
+ 
+ {
+        "id": 1,
+        "cedula": "0987652321001",
+        "nombre": "cristhian",
+        "apellido": "Portilla",
+        "email": "crportilla@gmail.com",
+        "username": "crportilla",
+        "password": "1234567",
+        "tipo": "Cliente",
+        "createdAt": "2020-09-12T00:52:44.124Z",
+        "updatedAt": "2020-09-12T00:52:44.124Z"
+    },
