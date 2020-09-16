@@ -1,6 +1,6 @@
 en la carpeta principal 
 	npm install 
-	npm i express https jwt-simple moment mongoose sqlite3 sequelize nodemon mysql2 body-parser 	cors bcrypt
+	npm i express https jwt-simple moment mongoose sqlite3 sequelize nodemon mysql2 body-parser cors bcrypt nodemailer nodemailer-mailgun-transport
 
 para correr npm start
 

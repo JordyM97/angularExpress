@@ -37,12 +37,12 @@ app.get("/", (req, res) => {
 require("./routes/usuario")(app);
 require("./routes/producto")(app);
 require("./routes/pedido")(app);
-
+require("./routes/contacto")(app);
 require("./routes/visita")(app);
 
 
 
-
+//comando para dropear tablas
 //db.sequelize.sync({ force: true }).then(() => {
 //console.log("Drop and re-sync db.");
 //}); 

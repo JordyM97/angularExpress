@@ -4,7 +4,7 @@ const Op = db.Sequelize.Op;
 const bcrypt= require('bcryptjs'); //hash 
 const jwt = require('jwt-simple'); //token
 const moment = require('moment'); //tiempo
-// Create and Save a new Tutorial
+// Create and HAsh  
 exports.create = async (req, res) => {
     // Validate request
     if (!req.body.Cedula) {
@@ -36,6 +36,10 @@ exports.create = async (req, res) => {
         });
       });
   };
+
+
+//auth and login
+
   const createToken = (usuario)=>{
     //metodo para generar el token
     const payload= {
@@ -45,6 +49,8 @@ exports.create = async (req, res) => {
     }
     return jwt.encode(payload, 'secreto');
   }
+
+
 exports.login = async (req,res) => {
   let usuario = await  Usuario.findOne({ where: { Email: req.body.Email}});
   if(usuario){
